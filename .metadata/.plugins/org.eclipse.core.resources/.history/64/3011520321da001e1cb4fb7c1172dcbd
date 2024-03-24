@@ -1,0 +1,31 @@
+package com.sathya.servlet;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class ProductDao {
+	public int save(Product product)
+	{
+		int saveResult = 0;
+		try(Connection connection=DataBaseUtils.createConnection();
+				PreparedStatement preparedStatement=connection.prepareStatement("insert into product1 values(?,?,?,?,?,?,?,?)"))
+		{
+			preparedStatement.setString(1, product.getProId());
+			preparedStatement.setString(2, product.getProName());
+			preparedStatement.setDouble(3, product.getProPrice());
+			preparedStatement.setString(4,product.getProBrand());
+			preparedStatement.setString(5, product.getProMadeIn());
+			preparedStatement.setString(6, product.getProMfgDate());
+			preparedStatement.setString(7, product.getProExpDate());
+			preparedStatement.setBinaryStream(3, product.getProImage());
+			saveResult=preparedStatement.executeUpdate();
+		}
+		catch(SQLException e)
+		{
+			e.printStackTrace();
+		}
+		return saveResult;
+	}
+
+}

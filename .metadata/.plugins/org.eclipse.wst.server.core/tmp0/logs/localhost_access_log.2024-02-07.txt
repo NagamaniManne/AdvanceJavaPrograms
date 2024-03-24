@@ -1,0 +1,10 @@
+127.0.0.1 - - [07/Feb/2024:05:19:08 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:19:18 +0530] "GET /FullnameApplication/ HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:19:18 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:19:37 +0530] "GET /FullnameApplication/fullname.html HTTP/1.1" 200 603
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:20:22 +0530] "GET /FullnameApplication/fullname.html HTTP/1.1" 200 632
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:20:46 +0530] "GET /FullnameApplication/fullname.html HTTP/1.1" 200 635
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:25:25 +0530] "GET /FullnameApplication/fullname.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:25:43 +0530] "GET /FullnameApplication/FullnameServlet?firstname=Chandu&middlename=Chadrama&lastname=Chandrakarth HTTP/1.1" 200 71
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:26:47 +0530] "GET /FullnameApplication/fullname.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:05:26:56 +0530] "GET /FullnameApplication/FullnameServlet?firstname=mdc+&middlename=dk&lastname=jd++ HTTP/1.1" 200 55

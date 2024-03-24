@@ -1,0 +1,8 @@
+127.0.0.1 - - [13/Feb/2024:11:08:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:11:08:46 +0530] "GET /RegistrationApplication/ HTTP/1.1" 404 779
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:11:08:50 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:11:08:57 +0530] "GET /RegistrationApplication/register.html HTTP/1.1" 200 1759
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:11:10:09 +0530] "GET /RegistrationApplication/RegisterServlet?username=nagamani&password=nagamani&mobile=9878686768&email=nagamani.manne16%40gmail.com&gender=female&dob=2001-02-16&qualification=BTECH&country=India&languages=Hindi&comments=Woowwwwwwwwwww........... HTTP/1.1" 500 1421
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:11:10:45 +0530] "GET /RegistrationApplication/register.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:11:11:51 +0530] "GET /RegistrationApplication/RegisterServlet?username=nagamani&password=nagamani&mobile=7638278373&email=nagamani.manne16%40gmail.com&gender=female&dob=2001-02-16&qualification=BTECH&qualification=MTECH&country=India&languages=Telugu&languages=Hindi&comments=Woww...... HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:11:12:20 +0530] "GET /RegistrationApplication/RegisterServlet?username=nagamani&password=nagamani&mobile=7638278373&email=nagamani.manne16%40gmail.com&gender=female&dob=2001-02-16&qualification=BTECH&qualification=MTECH&country=India&languages=Telugu&languages=Hindi&languages=Kanada&languages=Tamil&languages=English&comments=Woww...... HTTP/1.1" 200 442

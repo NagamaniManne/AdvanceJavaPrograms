@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;CSSandJSfiles/src/main/webapp/bmi.html&apos; to &apos;index.html&apos;" description="Rename resource &apos;bmi.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/bmi.html" name="index.html" stamp="1708957239635" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;CSSandJSfiles/src/main/webapp/paindrome.js&apos; to &apos;palindrome.js&apos;" description="Rename resource &apos;paindrome.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/paindrome.js" name="palindrome.js" stamp="1709197622075" updateReferences="true"/>
+</session>
